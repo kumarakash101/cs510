@@ -1,0 +1,36 @@
+
+
+body {
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	color: var(--gray1);
+	vertical-align: middle;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.list-item {
+  float: left;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 40px;
+  background-color: #006400;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.nav-link:hover {
+  background-color: #ffa500;
+  color: #080808;
+}

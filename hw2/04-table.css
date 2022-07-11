@@ -1,0 +1,38 @@
+
+
+
+  body {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .table-row{
+    width: 150px;
+    text-align: Center;
+  }
+  
+  .table-heading {
+    border: 1px solid #333;
+    background-color: #006400;
+    color: white;
+    cursor: auto;
+  }
+  
+  .table-row {
+    border: 1px solid #333;
+    font-size: .7em;
+  }
+  
+  .channel {
+    background-color: #ffa500;
+    border: 1px solid #333;
+    font-weight: bold;
+    text-align: Center;
+  }
+  
+  .trow:hover {
+    background-color: #ffb6f6fb;
+    cursor: pointer;
+  }
+  
+  
+  

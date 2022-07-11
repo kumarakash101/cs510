@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>05 - Form Registration</title>
+    <link rel="stylesheet" href="05-form.css" />
+  </head>
+
+  <body>
+    <main>
+      <form>
+        <section class="section1">
+          <h1 class="header1">REGISTRATION FORM</h1>
+
+          <div class="div1">
+            <label class="labels" for="Name"> Username: </label>
+            <input
+              class="inputs"
+              required
+              type="text"
+              aria-label="Name"
+              id="Name"
+              name="Name"
+              value=""
+            />
+            <br /><br />
+            <label class="labels" for="email"> Email: </label>
+            <input
+              class="inputs"
+              required
+              type="email"
+              aria-label="email"
+              id="email"
+              name="email"
+              value=""
+            />
+            <br /><br />
+            <label class="labels" for="password"> Password: </label>
+            <input
+              class="inputs"
+              required
+              type="password"
+              aria-label="password"
+              id="password"
+              name="password"
+              value=""
+            />
+          </div>
+          <br />
+
+          <div class="div1">
+            <b> Would you like to sign up for the newsletter? </b>
+          </div>
+
+          <!-- Radio button code starts here-->
+          <div class="div1">
+            <fieldset class="fldset">
+              <legend>
+                <input
+                  type="radio"
+                  id="Newsyes"
+                  aria-label="Yes"
+                  name="news"
+                  value="Yes"
+                  label="yes"
+                />
+                <span class="span1">Yes, sign me up</span> <br />
+                <input
+                  type="radio"
+                  id="Newsno"
+                  aria-label="No"
+                  name="news"
+                  value="No"
+                  label="no"
+                />
+                <span class="span1">No, thank you</span>
+              </legend>
+            </fieldset>
+          </div>
+          <!-- Radio button code ends here-->
+
+          <div class="div1">
+            <label class="labels" for="date"> Date: </label>
+            <input
+              required
+              type="date"
+              aria-label="date"
+              id="date"
+              name="date"
+              value="mm/dd/yyyy"
+            />
+            <br />
+            <br />
+            <button
+              class="btn"
+              type="submit"
+              value="Submit"
+              class="button"
+              aria-label="Submit"
+              label="submit"
+            >
+              Submit
+            </button>
+            <button
+              class="btn"
+              type="reset"
+              value="Reset"
+              class="button"
+              aria-label="Reset"
+              label="reset"
+            >
+              Reset
+            </button>
+          </div>
+        </section>
+      </form>
+    </main>
+    <!-- Citation
+			HTML and CSS- Jon Duckett
+			https://www.w3schools.com/html/ -->
+  </body>
+</html>
