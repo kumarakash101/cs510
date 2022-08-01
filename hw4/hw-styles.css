@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 400px;
+  background-color: #ffffff;
+}
+
+  .group-buttons 
+  {
+
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom:15px;
+    padding-top: 10px;
+  }
+
+  .btn-primary[type=submit]
+  {
+    width: 45%;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #008000;
+    border-color: #008000;
+    box-shadow: none;
+  }
+
+  .btn-secondary[type=reset] {
+    width: 45%;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: none;
+    background-color:#ffffff;
+    border-color: #008000;
+    color: #008000;
+  
+  }
